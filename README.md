@@ -25,6 +25,21 @@ To what extent do models pretrained on high-resource languages (XLM-R) and Afric
 - **Task:** Three-class sentiment classification - positive, negative, neutral
 - **Hausa training samples:** 14,172
 - **Kinyarwanda training samples:** 3,302
+- The data is downloaded automatically when you run `01_Data_Ingestion_and_Setup.ipynb`
+- Do not include the data folder in the zip file — it is too large and will be downloaded fresh by the notebook
+- Once downloaded, the notebook saves the processed files to your Google Drive under `Cos760/data/processed/
+---
+## Contents of the Zip File
+
+| File | Description |
+|------|-------------|
+| README.md | Project overview, setup instructions, and how to run |
+| 01_Data_Ingestion_and_Setup.ipynb | Downloads AfriSenti data, cleans tweets, saves processed CSVs to Drive |
+| 02_Model_Training.ipynb | Fine-tunes XLM-R and AfriBERTa on Hausa and Kinyarwanda |
+| 03_Evaluation.ipynb | Generates predictions, computes metrics, extracts disagreement cases |
+| 04_Analysis.ipynb | Applies LIME and SHAP to disagreement cases, saves XAI outputs |
+| 05_Reporting.ipynb | Compiles all results into final charts and tables |
+
 
 ---
 
