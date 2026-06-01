@@ -1,10 +1,11 @@
+**GITHUB REPO LINK**: https://github.com/lukecn03/COS760-Project-Group23
+**The complete project files can be accessed via this Google Drive link**: https://drive.google.com/drive/folders/1SUBRad1jdldMOtAhwUnTnyl-kCAS5aU7?usp=sharing 
+
 # COS760-Project-Group23
 # Sentiment Analysis Using AfriSenti Datasets
 
 
 **Luke Nobrega (u22517244) | Kudzai Nyika (u22585185) | Keabetswe Seitei (u26846404)**
-
-The complete project files can be accessed via this Google Drive link: https://drive.google.com/drive/folders/1SUBRad1jdldMOtAhwUnTnyl-kCAS5aU7?usp=sharing 
 
 ---
 
