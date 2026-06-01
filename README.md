@@ -68,7 +68,7 @@ To what extent do models pretrained on high-resource languages (XLM-R) and Afric
 
 ## How to Run
 
-All notebooks are designed to run on Google Colab with a T4 GPU. The project files are stored on a shared Google Drive.
+All notebooks are designed to run on Google Colab with a T4 GPU. The project files are stored on a shared Google Drive and are hardcoded to save and read files to and from a shared folder, link to folder at top of file.
 
 **Step 1 : Mount Drive and set up data**
 Open `01_Data_Ingestion_and_Setup.ipynb` and run all cells.
