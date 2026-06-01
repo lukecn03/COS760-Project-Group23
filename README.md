@@ -1,5 +1,5 @@
 **GITHUB REPO LINK**: https://github.com/lukecn03/COS760-Project-Group23
-**The complete project files can be accessed via this Google Drive link**: https://drive.google.com/drive/folders/1SUBRad1jdldMOtAhwUnTnyl-kCAS5aU7?usp=sharing 
+**The complete project files can be accessed via this Google Drive link**: https://drive.google.com/drive/u/1/folders/0AMCuykmZ7b6kUk9PVA
 
 # COS760-Project-Group23
 # Sentiment Analysis Using AfriSenti Datasets
@@ -18,6 +18,19 @@ This project compares two multilingual transformer models, XLM-R and AfriBERTa o
 ## Research Question
 
 To what extent do models pretrained on high-resource languages (XLM-R) and African languages (AfriBERTa) differ in sentiment classification performance on African languages, and what do LIME and SHAP reveal about the linguistic reasons behind those differences?
+
+---
+## Access to Project Files (Shared Drive)
+
+- **Location & hardcoded paths:** All notebooks, model checkpoints, and many outputs are stored in a shared Google Drive folder (link at the top of this README). Several notebook cells use hardcoded paths that point to that shared drive (for example: `/content/drive/Shareddrives/Cos760`). These paths are required for the notebooks to find the saved models and outputs when running in Google Colab.
+
+- **How to get access:** Our only practical solution is to grant viewers access to the shared Drive folder. FIRST: please email the project maintainers with the Google account email address(es) you want us to grant access to (the account(s) you will use in Colab). If you prefer, you may also open an issue on the GitHub repository with the Google account email address(es) to request access — whichever is easiest for you.
+
+- **Verification to avoid concerns about modifications:** We understand concerns about academic integrity. To verify that the files were not altered after submission, you can check the "Last modified" timestamps in Google Drive. In the Drive UI select a file or folder and open the details pane (the "i" / "View details" icon) to see the last modified timestamp; the Drive list view also shows a "Modified" column. These timestamps indicate when files were last edited in the shared folder.
+
+- **Cross-check with GitHub:** If you want an additional check, compare the notebooks and supporting files with the GitHub repository commits and the Google Drive timestamps to confirm there were no substantive post-submission edits.
+
+- **Contact / request access:** To request access, please email us or open a GitHub issue including the Google account email(s) you will use. We will grant access and confirm by reply.
 
 ---
 
@@ -86,6 +99,8 @@ Open `04_Analysis.ipynb` and run all cells.
 Open `05_Reporting.ipynb` and run all cells.
 
 ---
+
+
 
 ## Requirements
 
